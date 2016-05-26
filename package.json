@@ -1,0 +1,30 @@
+{
+  "name": "yamilquery-excel",
+  "version": "1.1.1",
+  "description": "Lector de archivos o directorios con contenido en formato Excel y CSV. Almacena el contenido obtenido un objeto JSON.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "excel",
+    "yamilquery",
+    "csv",
+    "lector",
+    "read"
+  ],
+  "author": "Yamil Díaz Aguirre <yamilquery@gmail.com> (http://yamil.ml/)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "chai": "^3.5.0",
+    "co": "^4.6.0",
+    "csvdata": "^1.3.0",
+    "fs": "0.0.2",
+    "node-xlsx": "^0.7.1"
+  },
+  "devDependencies": {
+    "co-mocha": "^1.1.2",
+    "mocha": "^2.5.3"
+  }
+}
