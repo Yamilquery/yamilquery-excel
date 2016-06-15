@@ -1,6 +1,6 @@
 {
-  "name": "yamilquery-excel",
-  "version": "1.1.1",
+  "name": "yamQuery-excel",
+  "version": "1.0.9",
   "description": "Lector de archivos o directorios con contenido en formato Excel y CSV. Almacena el contenido obtenido un objeto JSON.",
   "main": "index.js",
   "scripts": {
@@ -19,9 +19,15 @@
     "bluebird": "^3.4.0",
     "chai": "^3.5.0",
     "co": "^4.6.0",
-    "csvdata": "^1.3.0",
+    "co-fs": "^1.2.0",
+    "co-lodash": "0.0.4",
+    "csv-parse": "^1.1.1",
+    "ezcsv": "0.0.1",
     "fs": "0.0.2",
-    "node-xlsx": "^0.7.1"
+    "install": "^0.8.1",
+    "j": "^0.4.3",
+    "node-xlsx": "^0.7.1",
+    "npm": "^3.9.3"
   },
   "devDependencies": {
     "co-mocha": "^1.1.2",

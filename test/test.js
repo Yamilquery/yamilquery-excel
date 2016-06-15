@@ -16,6 +16,20 @@ describe('Excel', function() {
 			var file = yield test_excel.readFile('test/csv/matriz.csv')
 			assert.equal(true, file.length>0 )
 		})
+		// TODO: Concluir esta prueba
+		it.skip('should return true when read a file TSV succesfull',function*(){
+			var test_excel = new Excel()
+			var file = yield test_excel.readFile('test/csv/usageReport.tsv')
+			console.log(file)
+			assert.equal(true, file.length>0 )
+		})
+
+		it.only('should return true when read a file XML succesfull',function*(){
+			var test_excel = new Excel()
+			var file = yield test_excel.readFile('test/xml/COUNTER_4_Consortium_Report_1_-_Article_Requests.xml')
+			console.log(file)
+			assert.equal(true, file.length>0 )
+		})
 	})
 	 
 	describe('#readDirectory()', function () {

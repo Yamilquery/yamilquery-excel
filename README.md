@@ -7,9 +7,6 @@ Lector especialmente adaptado para leer documentos de tipo xls, xlsx y csv.
   - Leer un archivo en particular
   - Leer y almacenar el contenido en un objeto
 
-### Versión
-1.1.1
-
 ### Requerimientos
 
 YamilQuery-Excel requiere los siguientes módulos:
@@ -22,13 +19,13 @@ YamilQuery-Excel requiere los siguientes módulos:
 YamilQuery-Excel requiere [Node.js](https://nodejs.org/) v4+ para ejecutarse correctamente.
 
 ```sh
-$ npm install yamilquery-excel --save
+$ npm install yamQuery-excel --save
 ```
 
 ### Uso
 
 ```sh
-Excel = require('yamilquery-excel')
+Excel = require('yamQuery-excel')
 var test_excel = new Excel()
 test_excel.readDirectory('test/xlsx').then(function(data){
 	console.log(data)
@@ -38,7 +35,7 @@ test_excel.readDirectory('test/xlsx').then(function(data){
 Usar con co generator
 ```sh
 co = require('co')
-Excel = require('yamilquery-excel')
+Excel = require('yamQuery-excel')
 co(function*(){
 	var test_excel = new Excel()
 	var data = yield test_excel.readFile('test/csv/matriz.csv')
