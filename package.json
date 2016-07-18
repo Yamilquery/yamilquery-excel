@@ -1,6 +1,6 @@
 {
   "name": "yamQuery-excel",
-  "version": "1.0.9",
+  "version": "1.1.8",
   "description": "Lector de archivos o directorios con contenido en formato Excel y CSV. Almacena el contenido obtenido un objeto JSON.",
   "main": "index.js",
   "scripts": {
@@ -26,8 +26,12 @@
     "fs": "0.0.2",
     "install": "^0.8.1",
     "j": "^0.4.3",
+    "jsonexport": "^1.1.0",
+    "node-tsv-json": "^0.2.1",
     "node-xlsx": "^0.7.1",
-    "npm": "^3.9.3"
+    "npm": "^3.9.3",
+    "randomstring": "^1.1.5",
+    "xml2json": "^0.9.1"
   },
   "devDependencies": {
     "co-mocha": "^1.1.2",
