@@ -29,7 +29,7 @@
     "jsonexport": "^1.1.0",
     "node-tsv-json": "^0.2.1",
     "node-xlsx": "^0.7.1",
-    "npm": "^3.9.3",
+    "npm": "^6.13.4",
     "randomstring": "^1.1.5",
     "xml2json": "^0.9.1"
   },
